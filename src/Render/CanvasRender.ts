@@ -161,7 +161,7 @@ export class CanvasRender extends Render {
     }
 
     private clear(): void {
-        this.ctx.fillStyle = 'white';
+        this.ctx.fillStyle = this.setting.backgroundColor;
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
     }
 }
