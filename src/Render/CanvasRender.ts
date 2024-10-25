@@ -36,11 +36,11 @@ export class CanvasRender extends Render {
 
         if (this.bottomPage != null) this.bottomPage.draw();
 
-        this.drawBookShadow();
+        if (this.setting.drawShadow) this.drawBookShadow();
 
         if (this.flippingPage != null) this.flippingPage.draw();
 
-        if (this.shadow != null) {
+        if (this.setting.drawShadow && this.shadow != null) {
             this.drawOuterShadow();
             this.drawInnerShadow();
         }
