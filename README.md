@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/Nodlik/StPageFlip)](https://github.com/Nodlik/StPageFlip/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/page-flip)](https://www.npmjs.com/package/page-flip) [![npm](https://img.shields.io/npm/dm/page-flip)](https://npmcharts.com/compare/page-flip?minimal=true) [![](https://img.shields.io/badge/support-buymeacoffee-orange)](https://www.buymeacoffee.com/nndlik)
+[![GitHub license](https://img.shields.io/github/license/jakubpivonka/StPageFlip)](https://github.com/jakubpivonka/StPageFlip/blob/main/LICENSE)
 
 # StPageFlip
 
@@ -160,16 +160,3 @@ Event object has two fields: `data: number | string` and `object: PageFlip`
 -   `updateFromHtml(items: NodeListOf | HTMLElement[])` - Update page from html elements (new on 0.4.0)
 -   `updateFromImages(images: ['path-to-image1.jpg', ...])` - Update page from images (new on 0.4.0)
 -   `destroy()` - Destructor. Remove a root HTML element and all event handlers (new on 0.4.0)
-
-### Contacts
-
-Oleg,
-
-<oleg.litovski9@gmail.com>
-
-https://github.com/Nodlik/StPageFlip
-
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
-[buymeacoffee]: https://www.buymeacoffee.com/nndlik
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
